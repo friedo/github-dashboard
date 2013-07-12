@@ -1,8 +1,21 @@
-<% content_for :title do %>GitHub Commits<% end %>
+<% content_for :title do %>My super sweet dashboard<% end %>
 <div class="gridster">
   <ul>
-    <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
-      <div data-id="github" data-view="List" data-title="mongo" style="background-color:#ff9618"></div>
-  </ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="Hello" data-text="This is your shiny new dashboard." data-moreinfo="Protip: You can drag the widgets around!"></div>
+    </li>
 
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="synergy" data-view="Meter" data-title="Synergy" data-min="0" data-max="100"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="4" data-sizey="1">
+      <div data-id="reddit" data-view="Reddit"></div>
+      </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="instamongo" data-view="Instamongo"></div>
+    </li>
+
+  </ul>
 </div>

@@ -1,0 +1,25 @@
+<h3>reddit</h3>
+
+<table class="reddit-posts">
+  <thead>
+    <tr>
+      <th class="subreddit-title" data-bind="posts.label" colspan="3">Loading...</th>
+    </tr>
+
+    <tr>
+      <th class="post-title">Title</th>
+      <th class="post-upvotes">Upvotes</th>
+      <th class="post-comments">Comments</th>
+    </tr>
+  </thead>
+
+  <tbody class="subreddit-data">
+    <tr data-foreach-item="posts.items">
+      <td class="post-title" data-bind="item.title"></td>
+      <td class="post-score" data-bind="item.score"></td>
+      <td class="post-comments" data-bind="item.comments"></td>
+    </tr>
+  </tbody>
+
+  <tfoot></tfoot>
+</table>
