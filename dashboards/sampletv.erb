@@ -1,0 +1,39 @@
+<script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+  Dashing.gridsterLayout('[{"col":1,"row":1},{"col":2,"row":1},{"col":3,"row":1},{"col":4,"row":1},{"col":5,"row":1},{"col":6,"row":1},{"col":7,"row":1}]')
+  Dashing.widget_base_dimensions = [570, 340]
+  Dashing.numColumns = 10
+});
+</script>
+
+
+<% content_for :title do %>1080p dashboard<% end %>
+
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="github-mongodb/mongo" data-view="List" data-title="mongo" style="background-color:#996666"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="github-mongodb/mongo-perl-driver" data-view="List" data-title="mongo-perl-driver" style="background-color:#ff3366"></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="github-mongodb/mongo-ruby-driver" data-view="List" data-title="mongo-ruby-driver" style="background-color:#339944"></div>
+    </li>
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="github-mongodb/mongo-python-driver" data-view="List" data-title="mongo-python-driver" style="background-color:#ff6633"></div>
+    </li>
+    <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="github-mongodb/mongo-c-driver" data-view="List" data-title="mongo-c-driver" style="background-color:#3399ff"></div>
+    </li>
+    <li data-row="1" data-col="6" data-sizex="1" data-sizey="1">
+      <div data-id="github-mongodb/mongo-java-driver" data-view="List" data-title="mongo-java-driver" style="background-color:#996633"></div>
+    </li>
+    <li data-row="1" data-col="7" data-sizex="1" data-sizey="1">
+      <div data-id="github-mongodb/mongo-csharp-driver" data-view="List" data-title="mongo-csharp-driver" style="background-color:#ff33dd"></div>
+    </li>
+
+  </ul>
+
+</div>
