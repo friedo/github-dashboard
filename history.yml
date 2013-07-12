@@ -1,18 +1,18 @@
 ---
 buzzwords: |+
-  data: {"items":[{"label":"Web 2.0","value":1},{"label":"Paradigm shift","value":3},{"label":"Streamlininess","value":2}],"id":"buzzwords","updatedAt":1373656744}
+  data: {"items":[{"label":"Leverage","value":2},{"label":"Pivoting","value":5},{"label":"Synergy","value":6},{"label":"Streamlininess","value":4},{"label":"Exit strategy","value":3},{"label":"Web 2.0","value":4},{"label":"Turn-key","value":1},{"label":"Paradigm shift","value":3},{"label":"Enterprise","value":2}],"id":"buzzwords","updatedAt":1373663143}
 
 convergence: |+
-  data: {"points":[{"x":7,"y":14},{"x":8,"y":44},{"x":9,"y":31},{"x":10,"y":28},{"x":11,"y":7},{"x":12,"y":47},{"x":13,"y":1},{"x":14,"y":45},{"x":15,"y":47},{"x":16,"y":19}],"id":"convergence","updatedAt":1373656744}
+  data: {"points":[{"x":31,"y":8},{"x":32,"y":33},{"x":33,"y":3},{"x":34,"y":33},{"x":35,"y":18},{"x":36,"y":24},{"x":37,"y":25},{"x":38,"y":26},{"x":39,"y":34},{"x":40,"y":35}],"id":"convergence","updatedAt":1373663143}
 
 valuation: |+
-  data: {"current":51,"last":24,"id":"valuation","updatedAt":1373656744}
+  data: {"current":42,"last":16,"id":"valuation","updatedAt":1373663143}
 
 karma: |+
-  data: {"current":33053,"last":146922,"id":"karma","updatedAt":1373656744}
+  data: {"current":16454,"last":104612,"id":"karma","updatedAt":1373663143}
 
 synergy: |+
-  data: {"value":51,"id":"synergy","updatedAt":1373656744}
+  data: {"value":70,"id":"synergy","updatedAt":1373663143}
 
 github: |+
   data: {"items":[{"label":"09e6676e","value":"SERVER-10138 Temporary fix for auth_repl.js failure..."},{"label":"640ac9a9","value":"SERVER-10096 need to have a separate mongod to ensure our stats ..."},{"label":"58170391","value":"SERVER-10172 Appenders must be added to global log domain during..."},{"label":"769f9d66","value":"Extra debugging for jstests/dropdb.js\n\nFailure case: SERVER-1018..."},{"label":"f7ad531d","value":"SERVER-10105 replReads.js failing on Nightly Linux RHEL 64-bit..."},{"label":"ffa6177d","value":"SERVER-10104 make mr_drop.js more likely to work..."},{"label":"e6a8b4cb","value":"Fix slownightly failure\n\ngetmore_error.js sets a failpoint to ma..."},{"label":"e2090066","value":"SERVER-10110 Fix flakiness in TimeTBuilder jsobj test\n\n- Use the..."},{"label":"b0c0942f","value":"SERVER-10183: fix replsets/maintenance.js test for new exception..."},{"label":"a7379b5e","value":"SERVER-10145 In auth passthrough suite add user to mongos instea..."}],"id":"github","updatedAt":1373652158}
@@ -43,4 +43,43 @@ github-mongodb/mongo-php-driver: |+
 
 github-mongodb/mongo-python-driver: |+
   data: {"items":[{"label":"064e36af","value":"Debugging test_fork_and_schedule_refresh...."},{"label":"f6ada9b7","value":"Correct a comment...."},{"label":"4e2da916","value":"Fix AttributeError in MongoReplicaSetClient.alive(). PYTHON-541..."},{"label":"1b4aa047","value":"Dead code...."},{"label":"69e50327","value":"Raise InvalidOperation if monitor thread is dead...."},{"label":"1e76fc07","value":"Test that schedule_refresh asserts if monitor thread is gone...."},{"label":"52cb1268","value":"Add Xiuming Chen to contributors...."},{"label":"ddaccc16","value":"Merge branch 'pr/190'\n\n* pr/190:\n  Compatibility fix: use isAliv..."},{"label":"773fe6f4","value":"Compatibility fix: use isAlive instead of is_alive for python < ..."},{"label":"f5632290","value":"insert(manipulate=False) should return None if doc has no _id. P..."}],"id":"github-mongodb/mongo-python-driver","updatedAt":1373656727}
+
+reddit: |+
+  data: {"posts":[{"label":"Current top posts in \"/r/mongodb\"","items":[{"title":"Libbson: A BSON Utility...","score":3,"comments":0},{"title":"Schema Less is (Usually) a...","score":3,"comments":0},{"title":"MongoDB/mongolab REST API for mobile apps. Is this the way to go?","score":2,"comments":4},{"title":"Leafblower: Winner of the MongoDB March Madness...","score":2,"comments":0},{"title":"PrimeFreebies book borrow: MongoDB Aggregation Framework Principles and...","score":1,"comments":0},{"title":"Real-time Profiling a MongoDB...","score":2,"comments":0}]}],"id":"reddit","updatedAt":1373663083}
+
+instamongo: |+
+  data: {"photos":[{"photo":"http://distilleryimage4.s3.amazonaws.com/acaa5a36eb2511e29b6e22000aeb1b47_6.jpg"},{"photo":"http://distilleryimage4.s3.amazonaws.com/1c584944eaa211e2a77f22000a9e29a0_6.jpg"},{"photo":"http://distilleryimage8.s3.amazonaws.com/8bd38536ea0711e29a5822000a9f15d4_6.jpg"},{"photo":"http://distilleryimage6.s3.amazonaws.com/0794b578e8d711e29d6822000a9e0849_6.jpg"},{"photo":"http://distilleryimage4.s3.amazonaws.com/d3db2d20e89a11e2859c22000a9f0a20_6.jpg"},{"photo":"http://distilleryimage11.s3.amazonaws.com/83b3af40e66311e2925f22000aa81f8f_6.jpg"},{"photo":"http://distilleryimage8.s3.amazonaws.com/ae02d684e43511e28d1822000a1f8cf0_6.jpg"},{"photo":"http://distilleryimage10.s3.amazonaws.com/21d9e922e42b11e283e322000aa8200d_6.jpg"},{"photo":"http://distilleryimage3.s3.amazonaws.com/bb5a2b68e40b11e28ab422000aa80430_6.jpg"},{"photo":"http://distilleryimage5.s3.amazonaws.com/22109d80e3f111e2a76e22000a9f1968_6.jpg"},{"photo":"http://distilleryimage0.s3.amazonaws.com/7964d49ce38411e2b39e22000a9d0df1_6.jpg"},{"photo":"http://distilleryimage7.s3.amazonaws.com/f248c866e33211e297fd22000ae912c9_6.jpg"},{"photo":"http://distilleryimage6.s3.amazonaws.com/5750ed36e28b11e292d022000a1fcc15_6.jpg"},{"photo":"http://distilleryimage0.s3.amazonaws.com/a0fce914e04f11e29e1922000a9f4dd0_6.jpg"},{"photo":"http://distilleryimage9.s3.amazonaws.com/47da932ce04a11e2bb4e22000aaa0771_6.jpg"},{"photo":"http://distilleryimage4.s3.amazonaws.com/0ca015f0dfed11e2979b22000a9f4ded_6.jpg"},{"photo":"http://distilleryimage0.s3.amazonaws.com/5a3c70b8df3111e2850422000a1f9a85_6.jpg"}],"id":"instamongo","updatedAt":1373663083}
+
+ci_travis_python: |+
+  data: {"items":[{"label":"unknown","state":"unknown"}],"id":"ci_travis_python","updatedAt":1373663084}
+
+ci_travis_motor: |+
+  data: {"items":[{"label":"master","state":"passed"}],"id":"ci_travis_motor","updatedAt":1373663085}
+
+ci_travis_ruby: |+
+  data: {"items":[{"label":"master","state":"passed"}],"id":"ci_travis_ruby","updatedAt":1373663087}
+
+ci_travis_node: |+
+  data: {"items":[{"label":"master","state":"passed"}],"id":"ci_travis_node","updatedAt":1373663089}
+
+ci_travis_java: |+
+  data: {"items":[{"label":"master","state":"failed"}],"id":"ci_travis_java","updatedAt":1373663091}
+
+ci_travis_php: |+
+  data: {"items":[{"label":"master","state":"passed"}],"id":"ci_travis_php","updatedAt":1373663093}
+
+ci_travis_casbah: |+
+  data: {"items":[{"label":"master","state":"passed"}],"id":"ci_travis_casbah","updatedAt":1373663100}
+
+ci_travis_python_pr: |+
+  data: {"items":[{"label":"unknown","state":"unknown"}],"id":"ci_travis_python_pr","updatedAt":1373663100}
+
+ci_travis_motor_pr: |+
+  data: {"items":[{"label":"Pull Request #9","state":"passed"}],"id":"ci_travis_motor_pr","updatedAt":1373663100}
+
+ci_travis_ruby_pr: |+
+  data: {"items":[{"label":"Pull Request #224","state":"passed"}],"id":"ci_travis_ruby_pr","updatedAt":1373663100}
+
+ci_travis_java_pr: |+
+  data: {"items":[{"label":"Pull Request #128","state":"failed"}],"id":"ci_travis_java_pr","updatedAt":1373663102}
 

@@ -1,0 +1,18 @@
+org:
+  repositories:
+    ci_travis_python: mongodb/mongo-python-driver
+    ci_travis_motor: mongodb/motor
+    ci_travis_ruby: mongodb/mongo-ruby-driver
+    ci_travis_node: mongodb/node-mongodb-native
+    ci_travis_java: mongodb/mongo-java-driver
+    ci_travis_php: mongodb/mongo-php-driver
+    ci_travis_casbah: mongodb/casbah
+    ci_travis_python_pr: mongodb/mongo-python-driver
+    ci_travis_motor_pr: mongodb/motor
+    ci_travis_ruby_pr: mongodb/mongo-ruby-driver
+    ci_travis_java_pr: mongodb/mongo-java-driver
+    ci_travis_node_pr: mongodb/node-mongodb-native
+    ci_travis_php_pr: mongodb/mongo-php-driver
+    ci_travis_casbah_pr: mongodb/casbah
+    ci_travis_bson_ruby: mongodb/bson-ruby
+    ci_travis_js_bson: mongodb/bson-ruby
