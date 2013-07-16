@@ -12,3 +12,8 @@ end
 
 # for the citibike dashboard
 gem 'mongo'
+
+# for the Jenkins driver dashboard
+gem 'httparty'
+gem 'nokogiri'
+gem 'test-unit'

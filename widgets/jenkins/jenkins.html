@@ -1,0 +1,15 @@
+<img data-bind-src="image | prepend '/assets/'" class="project-icon"/>
+
+<h1 class="title" data-bind="title"></h1>
+
+<p class="less-info"><span class="health"></span></p>
+
+<p class="less-info">Last Success - <span data-bind="Last_Success_fromNow"></span></p>
+
+<p class="less-info">Last Failure - <span data-bind="Last_Failure_fromNow"></span></p>
+
+<p class="less-info">Last Duration - <span data-bind="Last_Duration_humanize"></span></p>
+
+<p class="more-info" data-bind="moreinfo | raw"></p>
+
+<p class="updated-at-small" data-bind="updatedAtMessage"></p>
