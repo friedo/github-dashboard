@@ -9,3 +9,6 @@ gem 'httparty'
 git 'https://github.com/Instagram/instagram-ruby-gem.git' do
   gem 'instagram'
 end
+
+# for the citibike dashboard
+gem 'mongo'
