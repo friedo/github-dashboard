@@ -1,10 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'dashing'
-gem 'travis'
-## Remove this if you don't need a twitter widget.
 gem 'twitter'
-gem 'httparty'
 
 git 'https://github.com/Instagram/instagram-ruby-gem.git' do
   gem 'instagram'
@@ -18,3 +15,6 @@ gem 'bson_ext'
 gem 'httparty'
 gem 'nokogiri'
 gem 'test-unit'
+
+# for the travisci dashboard
+gem 'travis'
