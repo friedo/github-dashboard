@@ -12,6 +12,7 @@ end
 
 # for the citibike dashboard
 gem 'mongo'
+gem 'bson_ext'
 
 # for the Jenkins driver dashboard
 gem 'httparty'
