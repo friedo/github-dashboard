@@ -15,7 +15,7 @@ repos = [ 'mongodb/mongo',
           'mongodb/mongo-php-driver',
         ] 
 
-SCHEDULER.every '10s' do
+SCHEDULER.every '10m' do
     for repo in repos
         res = GitHub.get("https://api.github.com/repos/#{repo}/commits")
 
