@@ -16,19 +16,14 @@ repos = [ 'mongodb/mongo',
         ] 
 
 SCHEDULER.every '10s' do
-
-    # auth token for github
-    token = IO.read( ".token" );
-
     for repo in repos
-        res = GitHub.get( 
-            "https://api.github.com/repos/#{repo}/commits",
-            :headers => { 
-                "Authorization" => "token #{token}"
-        })
+        res = GitHub.get("https://api.github.com/repos/#{repo}/commits")
 
         commits = res[0..9]
-        commits = commits.map{ |i| { :label => i['commit']['tree']['sha'][ 32, 40 ], :value => i['commit']['message'][ 0, 64 ] + '...' } }
+        commits = commits.map do |i|
+          { :label => i['commit']['tree']['sha'][ 32, 40 ],
+            :value => i['commit']['message'][ 0, 64 ] + '...' }
+        end
         send_event( "github-#{repo}", { items: commits } )
     end
 end
