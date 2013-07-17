@@ -3,9 +3,7 @@ source 'https://rubygems.org'
 gem 'dashing'
 gem 'twitter'
 
-git 'https://github.com/Instagram/instagram-ruby-gem.git' do
-  gem 'instagram'
-end
+gem 'instagram'
 
 # for the citibike dashboard
 gem 'mongo'
