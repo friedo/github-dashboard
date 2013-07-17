@@ -8,7 +8,7 @@ JENKINS_ATTRS = %i(S W Name Last_Success Last_Failure Last_Duration)
 JENKINS_W_INDEX = JENKINS_ATTRS.index(:W)
 JENKINS_PROJECTS = %w[
   mongo-c-driver              c
-  mongo-csharp-driver-build   csharp
+  mongo-csharp-driver-1.8x    csharp
   mongo-java-driver           java
   mongo-perl-driver           perl
   mongo-php-driver            php
