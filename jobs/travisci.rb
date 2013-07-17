@@ -23,7 +23,6 @@ def update_builds(repository, config, data_id)
   else
     build_info = { label: "unknown", state: "unknown" }
   end
-  puts build_info
   builds << build_info
 
   builds
