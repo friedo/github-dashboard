@@ -31,7 +31,7 @@ end
 config_file = File.dirname(File.expand_path(__FILE__)) + '/../config/travisci.yml'
 config = YAML::load(File.open(config_file))
 
-SCHEDULER.every('3m', first_in: '1s') {
+SCHEDULER.every('10m', first_in: '1s') {
   config.each do |type, type_config|
     unless type_config["repositories"].nil?
       type_config["repositories"].each do |data_id, repo|

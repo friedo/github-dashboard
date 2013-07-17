@@ -63,7 +63,7 @@ class StatusReporter
 end
 
 
-SCHEDULER.every '15s' do
+SCHEDULER.every '1m' do
   reporter ||= StatusReporter.new
   send_event('citibike', { items: reporter.nearby_statuses })
 end
